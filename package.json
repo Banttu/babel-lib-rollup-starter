@@ -1,0 +1,32 @@
+{
+  "name": "rollup-starter-lib-babel",
+  "version": "1.0.0",
+  "description": "Boilerplate for creating JavaScript libraries using Babel and Rollup",
+  "main": "dist/main.cjs.js",
+  "module": "dist/main.esm.js",
+  "browser": "dist/main.umd.js",
+  "scripts": {
+    "build": "./node_modules/.bin/rollup -c",
+    "dev": "./node_modules/.bin/rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Banttu/rollup-starter-lib-babel"
+  },
+  "author": {
+    "name": "Andreas Siivola",
+    "url": "https://github.com/Banttu"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "rollup": "^0.51.8",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  }
+}
