@@ -10,7 +10,7 @@ export default [
       file: pkg.browser,
       format: 'umd',
     },
-    name: 'Kopio.js',
+    name: 'myLibrary',
     plugins: [
       resolve(),
       commonjs(),
